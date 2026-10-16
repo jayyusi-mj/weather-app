@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  font-family: 'Roboto', sans-serif !important;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 0%;
+}
+
+.app-title-name {
+  width: 100%;
+  text-align: center;
+}
+
+.moto {
+  background-color: #bcccf5;
+}
+
+.fahrenheit {
+  padding-left: 1vh;
+}
+
+nav {
+  background-color: #bcccf5;
+  border-radius: 10px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+  text-decoration: none !important;
+  font-size: 100%;
+}
+
+nav ul li:not(.first-nav-link) {
+  padding-left: 10%;
+}
+
+.current-weather,
+.alerts,
+.custom-city,
+.condition-column {
+  background-color: #bcccf5;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.current-weather,
+.custom-city,
+.header {
+  margin: 0 0 0 0 !important;
+}
+
+.current-temp {
+  font-size: 5rem;
+  color: #fde61c;
+  float: left;
+}
+
+.centigrade {
+  color: #fde61c;
+  font-size: 1.9rem;
+  float: left;
+  margin-top: 1.5rem;
+}
+
+.feels-like-text {
+  float: left;
+  margin: 4.55rem 0 0 -2rem;
+}
+
+.current-feels-like-temp {
+  float: left;
+  margin: 3.2rem 0 0 0.5rem;
+  color: #ffffff;
+  font-size: 2.3rem;
+}
+
+.weather-icon {
+  float: left;
+  margin: 3.3rem 0 0 0;
+}
+
+.weather-description {
+  float: left;
+  margin: 6.4rem 0rem 0rem -3.5rem;
+}
+
+.alerts {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.condition-column {
+  min-height: 12vmin;
+  text-align: center;
+}
+
+.day-column {
+  font-size: calc(7px + 1vmin);
+  background-color: #bcccf5;
+  border-right: 0.3rem solid white;
+  text-align: center;
+  border-radius: 10px;
+  min-height: 40vmin;
+  position: relative;
+  padding: 10px !important;
+  margin: 0 0 10px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .day-column {
+    min-height: 60vmin;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .day-column {
+    min-height: 70vmin;
+  }
+}
+
+.last-day-column {
+  border-right: 0;
+}
+
+.white-background-weather-boxes {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 76%;
+  position: absolute;
+  bottom: 0;
+  height: 30%;
+  margin: 0;
+  padding: 0;
+  right: 2.9%;
+}
+
+.legend {
+  background-color: gray;
+  color: #ffffff;
+  border-radius: 10px;
+  border-right: 0.3rem solid white;
+  height: 30%;
+  margin: 15px;
+}
+
+.hourly ul li,
+.minutely li,
+.hourly-legend li,
+.hourly li {
+  list-style: none;
+}
+
+.hourly-row {
+  /* position: relative; */
+  background-color: #bcccf5;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.hourly-column {
+  /* position: absolute; */
+  min-width: 200px;
+  margin-left: 100px;
+}
+
+.hourly-legend {
+  /* position: absolute; */
+  /* top: 204px; */
+  margin-top: 204px;
+  width: 140px;
+  background-color: gray;
+  border-radius: 10px;
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+
+@media (min-width: 1201px) {
+  .hourly-legend {
+    top: 224px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1200px) {
+  .hourly-legend {
+    top: 224px;
+  }
+}
+
+/* 
+@media (min-width: 482px) and (max-width: 991px) {
+  .hourly-legend {
+    top: 224px;
+  }
+} */
+
+/* @media (min-width: 389px) and (max-width: 482px) {
+  .hourly-legend {
+    top: 204px;
+  }
+}
+
+@media (min-width: 345px) and (max-width: 388px) {
+  .hourly-legend {
+    top: 228px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 344px) {
+  .hourly-legend {
+    top: 204px;
+  }
+} */
+
+.hourly-column ul li {
+  list-style: none;
+  text-align: center;
+}
+
+.hourly-white-box {
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.pagination {
+  margin-top: 5px;
+  justify-content: center;
+}

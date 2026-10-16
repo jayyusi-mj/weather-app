@@ -1,0 +1,100 @@
+current :
+    "lat": 43.6918,
+    "lon": -79.8449,
+    "timezone": "America/Toronto",
+    "timezone_offset": -18000,
+    "current": {
+        "dt": 1610141794,
+        "sunrise": 1610110340,
+        "sunset": 1610143180,
+        "temp": 269.55,
+        "feels_like": 262.85,
+        "pressure": 1020,
+        "humidity": 58,
+        "dew_point": 263.26,
+        "uvi": 0,
+        "clouds": 20,
+        "visibility": 10000,
+        "wind_speed": 5.14,
+        "wind_deg": 350,
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "few clouds",
+                "icon": "02d"
+            }
+        ]
+--------------------------------------------------------
+    "hourly": [
+        {
+            "dt": 1610139600,
+            "temp": 269.55,
+            "feels_like": 263.62,
+            "pressure": 1020,
+            "humidity": 58,
+            "dew_point": 263.26,
+            "uvi": 0.19,
+            "clouds": 20,
+            "visibility": 10000,
+            "wind_speed": 4.04,
+            "wind_deg": 5,
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "few clouds",
+                    "icon": "02d"
+                }
+            ],
+            "pop": 0
+        },
+--------------------------------------------------------
+ "daily": [
+        {
+            "dt": 1610125200,
+            "sunrise": 1610110340,
+            "sunset": 1610143180,
+            "temp": {
+                "day": 265.27,
+                "min": 262.47,
+                "max": 269.55,
+                "night": 268.22,
+                "eve": 266.81,
+                "morn": 263.07
+            },
+            "feels_like": {
+                "day": 259.59,
+                "night": 262.19,
+                "eve": 261.12,
+                "morn": 257.38
+            },
+            "pressure": 1023,
+            "humidity": 91,
+            "dew_point": 261.53,
+            "wind_speed": 3.85,
+            "wind_deg": 11,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ],
+            "clouds": 3,
+            "pop": 0,
+            "uvi": 1.53
+        },
+--------------------------------------------------------
+
+    "minutely": [
+        {
+            "dt": 1610141820,
+            "precipitation": 0
+        },
+        {
+            "dt": 1610141880,
+            "precipitation": 0
+        },
+
